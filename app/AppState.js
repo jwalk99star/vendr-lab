@@ -20,7 +20,10 @@ class ObservableAppState extends EventEmitter {
   ]
   
   /** @type {import('./models/Snack.js').Snack[]} */
+  // mySnacks = [] not sure why this is commented out in Gachamon
   
+  mySnacks = loadState('mySnacks', [Snack])
+
   
   /** @type {import('./models/Snack.js').Snack | null} */
   availableSnack = null
