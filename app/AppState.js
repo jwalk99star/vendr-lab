@@ -19,6 +19,8 @@ class ObservableAppState extends EventEmitter {
     new Snack({ name: 'Cupcake', price: '$.75', emoji: '🧁' }),
   ]
   
+  /** @type {import('./models/Snack.js').Snack[]} */
+  
   
   /** @type {import('./models/Snack.js').Snack | null} */
   availableSnack = null

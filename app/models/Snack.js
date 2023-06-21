@@ -20,7 +20,7 @@ export class Snack{
 
   get SnackLargeTemplate () {
     return `
-    <div class="col-8">
+    <div class="col-8 m-auto">
     <div class="bg-primary text-center p-5">
       <p class="available-snack">${this.emoji}</p>
       <div class="d-flex justify-content-between text-light fs-2">
